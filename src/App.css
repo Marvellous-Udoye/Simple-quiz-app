@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #633CFF;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.quiz_container {
+  background-color: #fff;
+  display: inline-block;
+  width: 580px;
+  padding: 25px 20px;
+  border-radius: 5px;
+}
+
+.quiz_container h3 {
+  font-size: 28px;
+  padding: 8px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 15px;
+}
+
+.question_container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.option {
+  border: 1px solid #D9D9D9;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.option.correct {
+  background-color: rgb(32, 179, 32);
+  color: white;
+}
+
+.option.incorrect {
+  background-color: rgb(238, 27, 27);
+  color: white;
+}
+
+.option:hover {
+  background-color: #633CFF;
+  color: #fff;
+  transition: .1s ease;
+}
+
+.answer_container .option {
+  list-style: none;
+  display: block;
+  border: 1.5px solid #666;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.8;
+}
+
+.answer_container .option:hover {
+  background-color: #222;
+  color: #ffff;
+}
+
+.next_button {
+  display: block;
+  text-align: center;
+  margin: 28px 0;
+}
+
+.next_button button {
+  text-align: center;
+  background-color: #001638;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 54px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.active {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    height: 100vh;
+    padding: 0 10px;
+  }
+
+  .quiz_container {
+    min-width: 320px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .quiz_container h3 {
+    font-size: 22px;
+  }
+
+  .question {
+    font-size: 14px;
+
+  }
+
+  .option {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .next_button {
+    padding: 8px 30px;
+    margin: 16px 0;
+  }
+
+  .option:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .option.incorrect {
+    background-color: rgb(238, 27, 27);
+    color: white;
+  }
+
+  .option.correct:hover {
+    background-color: rgb(32, 179, 32);
+    color: white;
+  }
+}

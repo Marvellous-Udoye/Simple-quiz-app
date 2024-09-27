@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Which of the following is a popular JavaScript framework?",
+    "options": [
+      "React",
+      "Angular",
+      "Vue",
+      "Svelte"
+    ],
+    "answer": "React"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hypertext Markup Language",
+      "Hyperloop Machine Language",
+      "Hyper Tool Markup Language",
+      "Hyperlink Markdown Language"
+    ],
+    "answer": "Hypertext Markup Language"
+  },
+  {
+    "question": "Which of the following is used to style web pages?",
+    "options": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python"
+    ],
+    "answer": "CSS"
+  },
+  {
+    "question": "Which of these is not a programming language?",
+    "options": [
+      "Java",
+      "Python",
+      "HTML",
+      "C++"
+    ],
+    "answer": "HTML"
+  },
+  {
+    "question": "What is the full meaning of JSON?",
+    "options": [
+      "JavaScript Object Notation",
+      "Java Source Open Network",
+      "JavaScript Only Numbers",
+      "JavaScript Operator Naming"
+    ],
+    "answer": "JavaScript Object Notation"
+  }
+]
