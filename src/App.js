@@ -78,7 +78,7 @@ function App() {
 
   return (
     <div className="quiz_container">
-      <h3 className="quizName">Simple Quiz</h3>
+      <h3 className="quizName">Frontend Dev. Quiz</h3>
 
       {isQuizCompleted ? (
         <>

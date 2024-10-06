@@ -5,48 +5,198 @@
       "React",
       "Angular",
       "Vue",
-      "Svelte"
+      "All of the above"
     ],
-    "answer": "React"
+    "answer": "All of the above"
   },
   {
-    "question": "What does HTML stand for?",
+    "question": "What does CSS stand for?",
     "options": [
-      "Hypertext Markup Language",
-      "Hyperloop Machine Language",
-      "Hyper Tool Markup Language",
-      "Hyperlink Markdown Language"
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Creative Style Sheets",
+      "Colorful Style Sheets"
     ],
-    "answer": "Hypertext Markup Language"
+    "answer": "Cascading Style Sheets"
   },
   {
-    "question": "Which of the following is used to style web pages?",
+    "question": "Which HTML tag is used to create an unordered list?",
     "options": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Python"
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<list>"
     ],
-    "answer": "CSS"
+    "answer": "<ul>"
   },
   {
-    "question": "Which of these is not a programming language?",
+    "question": "What is the purpose of the 'useEffect' hook in React?",
     "options": [
-      "Java",
-      "Python",
-      "HTML",
-      "C++"
+      "To handle events",
+      "To manage state",
+      "To perform side effects",
+      "To create custom hooks"
     ],
-    "answer": "HTML"
+    "answer": "To perform side effects"
   },
   {
-    "question": "What is the full meaning of JSON?",
+    "question": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
     "options": [
-      "JavaScript Object Notation",
-      "Java Source Open Network",
-      "JavaScript Only Numbers",
-      "JavaScript Operator Naming"
+      "let",
+      "var",
+      "const",
+      "function"
     ],
-    "answer": "JavaScript Object Notation"
+    "answer": "function"
+  },
+  {
+    "question": "What does API stand for?",
+    "options": [
+      "Application Programming Interface",
+      "Advanced Programming Interface",
+      "Automated Program Interaction",
+      "Application Process Integration"
+    ],
+    "answer": "Application Programming Interface"
+  },
+  {
+    "question": "Which CSS property is used to change the text color of an element?",
+    "options": [
+      "text-color",
+      "font-color",
+      "color",
+      "foreground-color"
+    ],
+    "answer": "color"
+  },
+  {
+    "question": "What is the purpose of the 'async' keyword in JavaScript?",
+    "options": [
+      "To define a synchronous function",
+      "To create an asynchronous function",
+      "To import modules",
+      "To declare variables"
+    ],
+    "answer": "To create an asynchronous function"
+  },
+  {
+    "question": "Which of the following is a CSS preprocessor?",
+    "options": [
+      "Less",
+      "Sass",
+      "Stylus",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What does the acronym 'DOM' stand for in web development?",
+    "options": [
+      "Document Object Model",
+      "Data Object Model",
+      "Dynamic Object Management",
+      "Document Oriented Markup"
+    ],
+    "answer": "Document Object Model"
+  },
+  {
+    "question": "Which HTML5 tag is used to embed video content?",
+    "options": [
+      "<media>",
+      "<video>",
+      "<play>",
+      "<film>"
+    ],
+    "answer": "<video>"
+  },
+  {
+    "question": "What is the purpose of the 'git clone' command?",
+    "options": [
+      "To create a new branch",
+      "To merge branches",
+      "To copy a repository",
+      "To delete a repository"
+    ],
+    "answer": "To copy a repository"
+  },
+  {
+    "question": "Which JavaScript method is used to add new elements to the end of an array?",
+    "options": [
+      "push()",
+      "append()",
+      "add()",
+      "insert()"
+    ],
+    "answer": "push()"
+  },
+  {
+    "question": "What does CORS stand for in web development?",
+    "options": [
+      "Cross-Origin Resource Sharing",
+      "Create Origin Resource System",
+      "Cross-Object Request Service",
+      "Client-Origin Request Sender"
+    ],
+    "answer": "Cross-Origin Resource Sharing"
+  },
+  {
+    "question": "Which of the following is NOT a valid HTTP status code?",
+    "options": [
+      "200",
+      "404",
+      "500",
+      "600"
+    ],
+    "answer": "600"
+  },
+  {
+    "question": "What is the purpose of the 'npm' command in Node.js?",
+    "options": [
+      "To run JavaScript files",
+      "To manage packages and dependencies",
+      "To create new projects",
+      "To debug code"
+    ],
+    "answer": "To manage packages and dependencies"
+  },
+  {
+    "question": "Which CSS property is used to create space between the content and border of an element?",
+    "options": [
+      "margin",
+      "padding",
+      "spacing",
+      "border-spacing"
+    ],
+    "answer": "padding"
+  },
+  {
+    "question": "What is the purpose of the 'localStorage' object in JavaScript?",
+    "options": [
+      "To store data on the server",
+      "To store data in the browser",
+      "To create local variables",
+      "To manage browser history"
+    ],
+    "answer": "To store data in the browser"
+  },
+  {
+    "question": "Which of the following is a valid way to comment out multiple lines in CSS?",
+    "options": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "# This is a comment",
+      "<!-- This is a comment -->"
+    ],
+    "answer": "/* This is a comment */"
+  },
+  {
+    "question": "What does the 'viewport' meta tag in HTML primarily control?",
+    "options": [
+      "Page background",
+      "Font sizes",
+      "Page layout on mobile devices",
+      "Search engine optimization"
+    ],
+    "answer": "Page layout on mobile devices"
   }
 ]
